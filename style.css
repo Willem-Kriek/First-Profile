@@ -1,0 +1,93 @@
+body {
+  background-color: 355C7D ;
+  font-family: 'Roboto', sans-serif;
+  color: 355C7D ;
+  text-align: center;
+}
+
+h1 {
+  color:  #031d44;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2 {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+a {
+  color: #031d44;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+li {
+  display: inline;
+  margin: 40px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button-lawagon {
+  border: 1px solid black;
+  color: #F7F9FC;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  background-color:  #355C7D ;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+.container {
+  background-color: #99B898;
+  width: 80%;
+  height: 80%;
+  padding: 20px;
+  margin: 50px auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+
+}
+
+.card {
+  text-align: center;
+  background: #F7F9FC;
+  border: 1px solid black;
+  margin: 50px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.5);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 80%;
+  }
+}
